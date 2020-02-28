@@ -22,7 +22,7 @@ export class CartService {
     return this.items;
   }
 
-  ge  tShippingPrices() {
+  ge tShippingPrices() {
     return this.http.get('/assets/shipping.json');
   }
   
